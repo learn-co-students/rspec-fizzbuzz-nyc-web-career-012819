@@ -8,7 +8,9 @@
 # NOTE: If you uncomment the following line,
 # you won't encounter the `undefined method \`fizzbuzz'`
 # error described in the README
-# require_relative "../fizzbuzz"
+require_relative "./fizzbuzz_spec.rb"
+# require_relative "../fizzbuz"
+
 RSpec.configure do |config|
   config.run_all_when_everything_filtered = true
   config.filter_run :focus
