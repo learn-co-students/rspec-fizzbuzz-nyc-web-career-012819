@@ -13,14 +13,13 @@ def fizzbuzz(num)
   end
 end
 
-#
-# def fizzbuzz(num)
-#   if num % 3 == 0 && num % 5 == 0
-#     "FizzBuzz"
-#   elsif num % 3 == 0
-#     "Fizz"
-#   elsif num % 5 == 0
-#     "Buzz"
+
+# def fizzbuzz(num = 0)
+#   case num
+#   when num % 3 == 0 then "Fizz"
+#   when num % 5 == 0 then "Buzz"
+#   when num % 3 == 0 && num % 5 == 0 then "FizzBuzz"
+#   else
+#   nil
 #   end
 # end
-#binding.pry
